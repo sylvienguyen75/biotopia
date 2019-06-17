@@ -1,0 +1,71 @@
+
+body {
+  background-color: blue;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+font-family: 'Roboto Mono', monospace;
+  height: 100%;
+  margin: 0;
+}
+
+.button {
+  text-align:center;
+	font-size: 150%;
+	background-color:white;
+	color:blue;	
+	border:inherit;
+	border-radius:8px;
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left: -5%;
+}
+
+.bouton:hover
+{
+	background-color:#00f2e0;
+	transform:rotate(2deg);
+}
+
+.btn-group button {
+  cursor: pointer; /* Pointer/hand icon */
+  margin: 10%;
+  display: block; /* Make the buttons appear below each other */
+}
+
+.column {
+  float: left;
+ margin:10% 0 0 14%;
+  width: 50%;
+  padding: 10px;
+  font-size: 20px;
+  
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   font-size: 10px;
+}
+#snap{
+	text-align:center;
+	font-size: 150%;
+	background-color:white;
+	color:blue;	
+	border:inherit;
+	border-radius:8px;
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left: -5%;
+	
+}

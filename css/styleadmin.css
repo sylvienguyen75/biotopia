@@ -1,0 +1,203 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+
+body {
+  background-color: blue;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+font-family: 'Roboto Mono', monospace;
+  height: 100%;
+  margin: 0;
+}
+
+
+*{
+box-sizing:border-box;
+}
+
+h1
+{
+	color:#FFF;
+
+	font-size:310%;
+	text-align:center;
+}
+
+
+h3
+{
+	color:#FFF;
+	text-align:right;
+	font-size:120%;	
+}
+h2
+{
+	color:#FFF;
+	padding:0;margin:0 0 20px 0;
+	font-size:250%;	
+	text-align:center;
+}
+
+.container
+{
+	width:80%;
+	margin:0 10%;
+	position:relative;
+}
+
+
+
+.image-groupe{
+position:relative;
+width:30%;
+float:left;
+height:500px;
+	
+}
+
+.formulaire
+{
+	float:center;
+	margin-left: 0%;
+	margin-top: 25%;
+	
+}
+
+.name, .mdp
+{
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+	background-color:navy;
+	border:inherit;
+
+	font-size: 100%;
+	opacity:0.8;
+	border-radius:8px;
+	color:white;
+	width:220px;
+	margin-bottom:8px;
+	
+}
+.boutontexte
+{
+
+	text-align:center;
+	font-size: 150%;
+	background-color:navy;
+	color:white;	
+	border:inherit;
+	border-radius:8px;
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-left:20px;
+	padding-right:20px;
+	margin-left: 0%;
+	
+}
+	
+
+.boutonforme
+{
+	opacity:0.8;
+	text-align:left;
+	margin-left: 8%;
+}
+
+.boutontexte:hover
+{
+	background-color:#00f2e0;
+	transform:rotate(2deg);
+}
+
+
+
+a:link 
+{
+	color:#FFF;
+	text-decoration:none;
+}
+a:visited
+{
+	color:#FFF;
+	text-decoration:none;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   font-size: 10px;
+}
+	
+
+
+
+@media screen and (max-width: 1202px) {
+    .image-groupe{
+		position:absolute;
+        right:0;
+    }
+	
+	.tab{
+		left:10%;
+		transform:translate(0);	
+		
+	}
+	.tab img{
+		height:21px;
+		width:21px;	
+	}
+	
+	.ligne1, .ligne2, .ligne3, .ligne4, .ligne5, .ligne6, .ligne7, .ligne8, .ligne9
+, .ligne10, .ligne11, .ligne12, .ligne13, .ligne14, .ligne15, .ligne16, .ligne17, .ligne18
+, .ligne19, .ligne20{
+	height:21px;
+	
+	
+}
+	
+}
+
+
+
+@media screen and (max-width: 900px) {
+	.formulaire{
+		position:absolute;
+		left:50%;
+		transform:translateX(-50%);	
+	}
+	.tab{
+		left:50%;
+		transform:translateX(-50%);
+		top:270px;
+	}
+	
+	
+	.ligne1, .ligne2, .ligne3, .ligne4, .ligne5, .ligne6, .ligne7, .ligne8, .ligne9
+, .ligne10, .ligne11, .ligne12, .ligne13, .ligne14, .ligne15, .ligne16, .ligne17, .ligne18
+, .ligne19, .ligne20{
+	height:17px;
+	
+	
+	}
+	.tab img{
+		height:17px;
+		width:17px;	
+	}
+	
+	.image-groupe{
+		left:50%;
+		transform:translateX(-50%);	
+	}
+}
